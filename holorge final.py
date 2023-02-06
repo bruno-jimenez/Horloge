@@ -1,6 +1,6 @@
-from time import *
+import time
 status = True
-list_time_alarm = (0, 0, 5)     # Tuple for the alarm parameter
+list_time_alarm = (22, 45, 5)     # Tuple for the alarm parameter
 
 
 # Function to print a message when the time is equal the alarm setting
@@ -39,7 +39,7 @@ def change_time(new_hour):
         time.sleep(1)
 
 
-change_time((23, 59, 50))
+change_time((22, 45, 0))
 
 
 # Display the actual time if no other function is active
